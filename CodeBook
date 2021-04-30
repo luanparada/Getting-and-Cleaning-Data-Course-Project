@@ -1,5 +1,8 @@
 The relevant outputs are:
 
+activities = dataframe containing the activities observed
+features = a dataframe containing the descriptive names and their indexes of each variable measured from the raw data
+features_list = a vector containing the descriptive names of each relevant variable used to clean the data
 total_set = dataframe that contains all the mean and standard deviations measurements from the training and testing data)
   > the names of each variable are disposed in column names
   > the id column contains the number of the subject and the respective activity for the measurement

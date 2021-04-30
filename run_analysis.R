@@ -43,4 +43,4 @@ row_names = tidy_set$id
 tidy_set$id = NULL
 rownames(tidy_set) = row_names
 total_set = total_set[,c(ncol(total_set),1:(ncol(total_set)-1))]
-
+write.table(tidy_set,"tidy_data.txt",row.names = FALSE)

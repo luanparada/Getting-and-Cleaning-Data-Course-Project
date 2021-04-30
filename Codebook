@@ -1,0 +1,7 @@
+The relevant outputs are:
+
+total_set = dataframe that contains all the mean and standard deviations measurements from the training and testing data)
+  > the names of each variable are disposed in column names
+  > the id column contains the number of the subject and the respective activity for the measurement
+tidy_set = dataframe that contains the average of the all relevant measurements for each subject-activity pair
+  > the id column from the total_set is now disposed as row names
